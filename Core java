@@ -1,1 +1,31 @@
+// Abstract Method Codes
+package System;
+
+ interface cycle{
+    abstract void run();
+    abstract void breakcycle();
+    abstract void stunt();
+
+}
+
+class asphlat implements cycle{
+    public void run(){
+        System.out.println("Run");
+    }
+
+    public void breakcycle(){
+        System.out.println("Break Bicycle");
+    }
+
+    public void stunt(){
+        System.out.println("CYcle stunt");
+    }
+}
+public class AbstractPrac {
+
+    public static void main(String[] args) {
+
+    }
+
+}
 
